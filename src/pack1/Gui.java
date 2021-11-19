@@ -10,7 +10,7 @@ public class Gui {
         Var.jf1.setSize(Var.screenwidth, Var.screenheight); //Größe
         Var.jf1.setTitle("Pong"); //Titel des Fensters
         Var.jf1.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); //wenn man über x schließt wird das programm auch im hintergrund beendet 
-        Var.jf1.setLayout(null); 
+        Var.jf1.setLayout(null); //setzt das fenster auf container
         Var.jf1.setResizable(false); //man kann das fenster nicht größer machen mit der maus
         Var.jf1.setVisible(true); // zeigt das Fenster an
         Var.jf1.setLocationRelativeTo(null);  // zentriert das fenster
